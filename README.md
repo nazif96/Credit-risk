@@ -51,8 +51,9 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
 ### 2.📊 Analyse exploratoire des données `EDA.ipynb`
 
 -  Statistiques descriptives
-    |       Statistiques       | Durations | Credit amount | Installment_Rate_Percent | Residence_Years | Age in years | Num_Existing_Credits | Liable_People |
-|--------------------------|-----------|----------------|---------------------------|------------------|---------------|------------------------|----------------|
+```
+|       Statistiques       | Durations | Credit amount  | Installment_Rate_Percent  | Residence_Years  | Age in years  | Num_Existing_Credits   | Liable_People  |
+|-------------------------:|----------:|---------------:|--------------------------:|-----------------:|--------------:|-----------------------:|---------------:|
 | **count**                | 1000.00   | 1000.00        | 1000.00                   | 1000.00          | 1000.00       | 1000.00                | 1000.00        |
 | **mean**                 | 20.90     | 3271.26        | 2.97                      | 2.85             | 35.55         | 1.41                   | 1.16           |
 | **std**                  | 12.06     | 2822.74        | 1.12                      | 1.10             | 11.38         | 0.58                   | 0.36           |
@@ -61,6 +62,8 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
 | **50%** (médiane)        | 18.00     | 2319.50        | 3.00                      | 3.00             | 33.00         | 1.00                   | 1.00           |
 | **75%** (3e quartile)    | 24.00     | 3972.25        | 4.00                      | 4.00             | 42.00         | 2.00                   | 1.00           |
 | **max**                  | 72.00     | 18424.00       | 4.00                      | 4.00             | 75.00         | 4.00                   | 2.00           |
+
+```
 
 
 -  Analyses univariés 
