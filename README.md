@@ -73,8 +73,6 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
     *Le genre et status marital*
     ![Genre_status](https://github.com/nazif96/Credit-risk/blob/main/images/genre_statut.png)
 
-    
-    ![Plus](https://github.com/nazif96/Credit-risk/blob/main/Notebooks/EDA.ipynb)
 
 - **Analyses bivariés** 
 
@@ -84,7 +82,6 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
     *Montant de crédit vs le but de crédit &  Age vs Job *
     ![Job_age_purpose_amount](https://github.com/nazif96/Credit-risk/blob/main/images/output.png)
 
-    ![Plus](https://github.com/nazif96/Credit-risk/blob/main/Notebooks/EDA.ipynb)
 
 - **Corrélation**
 
@@ -96,6 +93,7 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
 
     ![corr_cat](https://github.com/nazif96/Credit-risk/blob/main/images/corr_cat_var.png) 
 
+Pour plus de détails, consultez le notebook notebooks/EDA.ipynb
 
 ## Prétraitement et Entraînement des modèles `Preprocess_ML.ipynb`
 
