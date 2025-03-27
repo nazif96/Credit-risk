@@ -101,7 +101,7 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
 
 Sélection des variables pertinentes et prétraitement des données pour l'apprentissage automatique
 
--surechantillonnage de la variable cible `Checking_Account_Status` avec la methode *SMOTE* pour corriger le deséquilibre des modalités 
+- Surechantillonnage de la variable cible `Checking_Account_Status` avec la methode *SMOTE* pour corriger le deséquilibre des modalités 
 
 - Modèles 
   - Logistic Regression
@@ -110,7 +110,7 @@ Sélection des variables pertinentes et prétraitement des données pour l'appre
   - XGBoost
 
 
-**Evaluations des mode=èles (Metrics)** 
+#### Evaluations des modèles (Metrics) 
 
 ✅ Comparaison des performances des modèles (classe "bad" = 1)
 
@@ -132,7 +132,7 @@ Sélection des variables pertinentes et prétraitement des données pour l'appre
 **Meilleur Modèle** : Le modèle final sélectionné est une régression logistique 
 Pour plus de détails, consultez le notebook notebooks/Preprocess_ML.ipynb.
 
-**Top features de la régression logistique**
+#### Top features de la régression logistique
 
 ![Top15](https://github.com/nazif96/Credit-risk/blob/main/images/Top_Features.png)
 
