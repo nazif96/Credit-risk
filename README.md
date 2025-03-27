@@ -9,6 +9,7 @@ L'objectif de ce projet était de développer un modèle prédictif capable de c
 
 ## 🏗️ Structure du projet 
 
+```
 Risque_credit/
 │
 ├── Data/
@@ -35,3 +36,4 @@ Risque_credit/
 ├── LICENSE 
 ├── README.md                    # Description du projet
 └── requirements.txt             # Dépendances à installer
+``` 
