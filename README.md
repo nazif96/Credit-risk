@@ -50,7 +50,7 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
 
 ### 2.📊 Analyse exploratoire des données `EDA.ipynb`
 
--  Statistiques descriptives
+-  **Statistiques descriptives**
 ```
 |       Statistiques       | Durations | Credit amount  | Installment_Rate_Percent  | Residence_Years  | Age in years  | Num_Existing_Credits   | Liable_People  |
 |-------------------------:|----------:|---------------:|--------------------------:|-----------------:|--------------:|-----------------------:|---------------:|
@@ -65,8 +65,7 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
 
 ```
 
-
--  Analyses univariés 
+-  **Analyses univariés** 
 
     *variable cible* 
     ![target](https://github.com/nazif96/Credit-risk/blob/main/images/account_status.png) 
@@ -74,7 +73,25 @@ Importation, nettoyage des données et sauvegarde des données propres dans un f
     *Le genre et status marital*
     ![Genre_status](https://github.com/nazif96/Credit-risk/blob/main/images/genre_statut.png)
 
-    *plus*
-     ![Autres](https://github.com/nazif96/Credit-risk/blob/main/Notebooks/EDA.ipynb)
+    
+    ![Plus](https://github.com/nazif96/Credit-risk/blob/main/Notebooks/EDA.ipynb)
 
-- analyses bivarié 
+- **Analyses bivariés** 
+
+    *Variable cible vs montant de crédit*
+    ![](https://github.com/nazif96/Credit-risk/blob/main/images/target_vs_amount.png)
+
+    *Montant de crédit vs le but de crédit &  Age vs Job *
+    ![Job_age_purpose_amount](https://github.com/nazif96/Credit-risk/blob/main/images/output.png)
+
+    ![Plus](https://github.com/nazif96/Credit-risk/blob/main/Notebooks/EDA.ipynb)
+
+- **Corrélation**
+
+    *Variables numériques*
+
+    ![corr_num](https://github.com/nazif96/Credit-risk/blob/main/images/corr_num_var.png)
+
+    *Variables catégorielles* 
+
+    ![corr_cat](https://github.com/nazif96/Credit-risk/blob/main/images/corr_cat_var.png) 
