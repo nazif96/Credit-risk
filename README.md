@@ -43,12 +43,12 @@ Risque_credit/
 ├── README.md                    # Description du projet
 └── requirements.txt             # Dépendances à installer
 ``` 
-## Analyse Exploratoire des Données 
+## 📊Analyse Exploratoire des Données 
 
 ### 1. Data cleaning `Cleaning_data.ipynb`
 Importation, nettoyage des données et sauvegarde des données propres dans un fichier csv `Credit_cleaned.csv` et un fichier json `Credit_cleaned.csv` 
 
-### 2.📊 Analyse exploratoire des données `EDA.ipynb`
+### 2. Analyse exploratoire des données `EDA.ipynb`
 
 -  **Statistiques descriptives**
 ```
