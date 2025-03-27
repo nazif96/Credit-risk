@@ -11,18 +11,27 @@ L'objectif de ce projet était de développer un modèle prédictif capable de c
 
 Risque_credit/
 │
-├── model_training/
-│   ├── train_model.py              # Script d'entraînement + sauvegarde modèle/scaler/features
-│   └── (ou un notebook Jupyter)
-│
+├── Data/
+│   ├── Credit_cleaned.csv       # Base de données propre en format csv 
+│   ├── Credit_cleaned.json      # Base de données propre en format csv
+│   ├── dataset.csv              # Base de données brute
+│   └── df_api.csv               # Base de données pour l'api  
+|
+├── images/                      # images des visualisations
+│   
+
 ├── model_API/
-│   ├── main.py                     # API FastAPI avec route /predict
-│   ├── logistic_model.pkl          # Modèle de régression logistique sauvegardé
-│   ├── scaler.pkl                  # Scaler entraîné sur credit_amount
-│   ├── features_columns.pkl        # Liste des 6 features utilisées
+│   ├── features                 # Liste des 6 features utilisées
+│   ├── log_reg.pkl              # Modèle de régression logistique sauvegardé
+│   ├── main.py                  # API FastAPI avec route /predict 
+│   ├── scaler1.pkl              # Scaler entraîné sur credit_amount 
 │
+├── Model_training/
+│   └── train_model.py           # entrainement du model logistic regression
+|
 ├── streamlit_app/
-│   └── app.py                      # Interface utilisateur pour prédiction
+│   └── app.py                   # Interface utilisateur pour prédiction
 │
-├── requirements.txt                # Dépendances à installer (voir ci-dessous)
-└── README.md                       # (optionnel) description du projet
+├── LICENSE 
+├── README.md                    # Description du projet
+└── requirements.txt             # Dépendances à installer
