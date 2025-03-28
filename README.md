@@ -194,7 +194,7 @@ uvicorn main:app --reload
 
 ![](https://github.com/nazif96/Credit-risk/blob/main/images/api1_swagger.png)
 
-**NB** Laisse ce terminal ouvert pendant toute la session (ne le ferme pas)
+**NB:** Laisse ce terminal ouvert pendant toute la session (ne le ferme pas)
 
 2. Étape 2 — Lancer l'application Streamlit
 
