@@ -137,8 +137,9 @@ Pour plus de détails, consultez le notebook notebooks/Preprocess_ML.ipynb.
 ## Creation d'un API (Fastapi)
 
 - rentraînement du modèle logistic regression `App.ipynb` avec quelques variables plus pertienentes puis sauvegarde en `log_reg.pkl`
-- sauvegarde des features pour le training de log_reg  en `scaler1.pkl`
-- Sauvegarde Scaler entraîné sur credit_amount  en `features_columns1.pkl`
+- sauvegarde des features pour le training de log_reg  en `features_columns1.pkl` 
+- Sauvegarde Scaler entraîné sur credit_amount  en `scaler1.pkl`-+
+
 
 Puis **Création d'un api**
 
